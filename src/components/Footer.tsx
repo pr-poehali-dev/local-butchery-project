@@ -8,7 +8,7 @@ const Footer = () => {
               Местная лавка
             </h3>
             <p className="text-gray-300 text-sm">
-              Качественные колбасные изделия от Лидии Деменевой
+              Качественные колбасные изделия от Ивана Ивановича
             </p>
           </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Местная лавка. Основана Лидией Деменевой.
+            © 2025 Местная лавка. Основана Иваном Ивановичем.
           </p>
           <p className="text-gray-400 text-sm mt-2 md:mt-0">
             Все права защищены
