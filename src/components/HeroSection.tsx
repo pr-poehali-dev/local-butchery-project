@@ -8,6 +8,17 @@ const HeroSection = () => {
         <Badge variant="secondary" className="mb-4 bg-red-100 text-red-800">
           С 2025 года
         </Badge>
+        <div className="mb-6">
+          <Avatar className="h-24 w-24 mx-auto mb-4 ring-4 ring-amber-200">
+            <AvatarImage
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200&h=200&fit=crop"
+              alt="Местная лавка"
+            />
+            <AvatarFallback className="text-2xl font-bold bg-amber-100 text-amber-800">
+              МЛ
+            </AvatarFallback>
+          </Avatar>
+        </div>
         <h1 className="text-5xl font-bold text-gray-900 mb-4 font-montserrat">
           Местная лавка
         </h1>
