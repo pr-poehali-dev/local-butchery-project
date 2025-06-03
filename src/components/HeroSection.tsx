@@ -9,13 +9,13 @@ const HeroSection = () => {
           С 2025 года
         </Badge>
         <div className="mb-6">
-          <Avatar className="h-24 w-24 mx-auto mb-4 ring-4 ring-amber-200">
+          <Avatar className="h-32 w-32 mx-auto mb-6 ring-8 ring-amber-300 shadow-2xl">
             <AvatarImage
-              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200&h=200&fit=crop"
+              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=300&fit=crop"
               alt="Местная лавка"
             />
-            <AvatarFallback className="text-2xl font-bold bg-amber-100 text-amber-800">
-              МЛ
+            <AvatarFallback className="text-4xl font-bold bg-gradient-to-br from-amber-200 to-orange-200 text-amber-900">
+              🏪
             </AvatarFallback>
           </Avatar>
         </div>
